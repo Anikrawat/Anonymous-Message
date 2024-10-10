@@ -1,5 +1,5 @@
 import userModel from "@/app/Models/user";
-import dbConnect from "@/lib/dbConnect";
+import dbConnect from "@/app/lib/dbConnect";
 import response from "@/../types/response";
 import bcrypt from 'bcryptjs'
 import sendVerificationEmail, { apiResponse } from "../../../../Helpers/sendVerificationEmail";

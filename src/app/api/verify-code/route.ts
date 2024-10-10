@@ -1,4 +1,4 @@
-import dbConnect from "@/lib/dbConnect";
+import dbConnect from "@/app/lib/dbConnect";
 import userModel from "../../Models/user";
 import response from "../../../../types/response";
 

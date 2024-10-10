@@ -1,6 +1,6 @@
 import UserModel from '@/app/Models/user';
 import {auth} from '@/auth'
-import dbConnect from '@/lib/dbConnect';
+import dbConnect from '@/app/lib/dbConnect';
 import { User } from 'next-auth';
 
 export async function DELETE(

@@ -1,4 +1,4 @@
-import dbConnect from "@/lib/dbConnect";
+import dbConnect from "@/app/lib/dbConnect";
 import userModel from "@/app/Models/user";
 import { Message } from "@/app/Models/message";
 import response from "@/../types/response";
