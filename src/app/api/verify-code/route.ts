@@ -1,5 +1,5 @@
 import dbConnect from "@/lib/dbConnect";
-import userModel from "../../../../Models/user";
+import userModel from "../../Models/user";
 import response from "../../../../types/response";
 
 

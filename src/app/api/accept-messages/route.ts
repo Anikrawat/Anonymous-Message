@@ -1,6 +1,6 @@
 import { auth } from "@/auth";
 import dbConnect from "@/lib/dbConnect";
-import userModel from "@/../Models/user";
+import userModel from "@/app/Models/user";
 import { User } from "next-auth";
 import response  from "../../../../types/response";
 

@@ -1,4 +1,4 @@
-import userModel from "@/../Models/user";
+import userModel from "@/app/Models/user";
 import dbConnect from "@/lib/dbConnect";
 import response from "@/../types/response";
 import bcrypt from 'bcryptjs'

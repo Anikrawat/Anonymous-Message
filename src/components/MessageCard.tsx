@@ -22,7 +22,7 @@ import {
 
 import { Button } from "./ui/button";
 import { X } from "lucide-react";
-import { Message } from "../../Models/message";
+import { Message } from "../app/Models/message";
 import { useToast } from "./hooks/use-toast";
 import axios from "axios";
 import { apiResponse } from "../../Helpers/sendVerificationEmail";
